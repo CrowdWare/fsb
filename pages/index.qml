@@ -410,7 +410,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
 &lt;h3&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p class=&quot;lead&quot;&gt;Here you can download our latest release (2.2.0) for Linux. &lt;a href=&quot;https://flatsitebuilder.crowdware.at/FlatSiteBuilder-Linux-2.2.0.Setup&quot;&gt;&lt;img src=&quot;assets/images/download.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;Here you can download our latest releases. &lt;a href=&quot;https://github.com/CrowdWare/fsb/releases&quot;&gt;&lt;img src=&quot;assets/images/download.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 "
                     adminlabel: "Downloads"
                 }
