@@ -8,7 +8,7 @@ Site {
    keywords: ''
    author: ''
    logo: ''
-   language: ''
+   language: 'en'
    publisher: ''
    output: 'docs'
 }
