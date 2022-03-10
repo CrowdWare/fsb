@@ -252,7 +252,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;item-box&quot;&gt;
 	&lt;figure&gt;
-		&lt;a class=&quot;item-hover&quot; href=&quot;https://artanidos.github.io/artananda/&quot;&gt;
+		&lt;a class=&quot;item-hover&quot; href=&quot;https://www.artoftouch.site&quot;&gt;
 			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 			&lt;span class=&quot;inner&quot;&gt;
 				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
@@ -262,7 +262,7 @@ Content {
 		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/artananda.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
 	&lt;/figure&gt;
 	&lt;div class=&quot;item-box-desc&quot;&gt;
-		&lt;h4&gt;Artananda&lt;/h4&gt;
+		&lt;h4&gt;Art of Touch&lt;/h4&gt;
 		&lt;small class=&quot;styleColor&quot;&gt;2017&lt;/small&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
@@ -351,6 +351,24 @@ Content {
 &lt;p class=&quot;lead&quot;&gt;
 	This video shows how to create a website from scratch.
 &lt;/p&gt;"
+                }
+            }
+        }
+    }
+
+    Section {
+        id:  docu
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
+&lt;h3&gt;&lt;strong&gt;Dokumentation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p class=&quot;lead&quot;&gt;Du findest Du Dokumentation zum FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;"
+                    adminlabel: "Dokumentation"
                 }
             }
         }
