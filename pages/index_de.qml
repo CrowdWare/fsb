@@ -9,6 +9,7 @@ Content {
     author: "admin"
     layout: "default"
     date: "2022-02-21"
+    language: "de"
 
     Section {
         fullwidth: true
@@ -34,29 +35,17 @@ Content {
 &lt;h1&gt;
 	&lt;strong&gt;Willkommen&lt;/strong&gt; beim {{ site.title }}
 &lt;/h1&gt;
-&lt;p class=&quot;lead&quot;&gt;Did you know that you are able to host your project website on Github-Pages for free?&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;Wusstest Du, dass Du Deine Projekt-Website kostenlos auf Github-Pages hosten kannst?&lt;/p&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	The FlatSiteBuilder is a very easy to use content management system (CMS) and content 
-	creation tool running as a desktop application on Linux.
-	You are able to build web content which you can host on github pages for free or any 
-	other web space provider.
-	Because all of the pages are beeing build on the desktop it is the fastest content 
-	management system available. No code is executed on the web server.
-&lt;/p&gt;"
-                }
-            }
-        }
-    }
-
-    Section {
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;/&gt;"
+Der FlatSiteBuilder ist ein sehr einfach zu bedienendes Content-Management-System (CMS) und Content
+Erstellungstool, das als Desktop-Anwendung unter Linux, Windows und MacOS ausgeführt wird.
+Du kannst Webinhalte erstellen, die Du kostenlos auf Github-Pages oder auch bei anderer Webspace-Anbietern hosten kannst.
+Da alle Seiten auf dem Desktop erstellt werden, ist dies eines der schnellsten CMS, das auf diesem Planeten verfügbar ist.  
+Es muss zum Beispiel keine Grafikdatei zum Webserver hochgeladen werden, nur um es mal schnell auszuprobieren. 
+Das eigentliche Hochladen geschieht erst, wenn der Erstellungsprozess beendet ist.   
+Auch auf dem Webserver ist dies CMS eines der schnellsten, da kein Programm-Code zur Laufzeit ausgeführt wird.
+&lt;/p&gt;
+&lt;div class=&quot;divider styleColor&quot;/&gt;"
                 }
             }
         }
@@ -79,8 +68,9 @@ Content {
 
                 Text {
                     text: "&lt;h3&gt;&lt;strong&gt;FlatSiteBuilder&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;The FlatSiteBuilder is a very easy to use content management system and content creation tool running as a desktop application on Linux.&lt;/p&gt;
-&lt;p class=&quot;lead&quot;&gt;It is also planned to release versions for Windows and Mac OS.&lt;/p&gt;"
+&lt;p class=&quot;lead&quot;&gt;Der FlatSiteBuilder ist ein sehr benutzerfreundliches Inhaltsverwaltungssystem und Inhaltserstellungstool, 
+das als Desktop-Anwendung unter Linux ausgeführt wird.&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;Es ist auch geplant, Versionen für Windows und Mac OS herauszubringen.&lt;/p&gt;"
                 }
             }
         }
@@ -97,8 +87,8 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Fastest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact the FlatSiteBuilder only creates flat HTML files it is therefore the fastest CMS available.&lt;/p&gt;
+		&lt;h4&gt;Schnellstes CMS&lt;/h4&gt;
+		&lt;p&gt;Weil der FlatSiteBuilder nur flache HTML-Dateien erstellt, ist er somit eines der schnellsten verfügbaren CMS.&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -111,8 +101,10 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Easiest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact that FlatSiteBuilder runs on the desktop it is therefore one of the easiest to use CMS avaiable.&lt;/p&gt;
+		&lt;h4&gt;Einfaches CMS&lt;/h4&gt;
+		&lt;p&gt;
+			Aufgrund der Tatsache, dass FlatSiteBuilder auf dem Desktop läuft, ist es eines der am einfachsten zu 
+			verwendenden CMS, die es gibt.&lt;/p&gt;	
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -125,8 +117,10 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Safest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact that we use github as version control for the content, FlatSiteBuilder is therefore the safest CMS available.&lt;/p&gt;
+		&lt;h4&gt;Sicherstes CMS&lt;/h4&gt;
+		&lt;p&gt;
+			Aufgrund der Tatsache, dass wir github.com als Versionskontrolle für die Inhalte verwenden, 
+			ist FlatSiteBuilder eines der sichersten verfügbaren CMS.&lt;/p&gt;	
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
@@ -139,16 +133,15 @@ Content {
                     text: "&lt;div class=&quot;featured-box nobg border-only&quot;&gt;
 	&lt;div class=&quot;box-content&quot;&gt;
 		&lt;i class=&quot;fa fa-thumbs-up&quot;&gt;&lt;/i&gt;
-		&lt;h4&gt;Cheapest CMS&lt;/h4&gt;
-		&lt;p&gt;Because of the fact that hosting on github pages is free, FlatSiteBuilder is therefore the cheapest CMS available.&lt;/p&gt;
+		&lt;h4&gt;Kostengünstigstes CMS&lt;/h4&gt;
+		&lt;p&gt;			
+			Aufgrund der Tatsache, dass das Hosting auf Github-Pages kostenlos ist, 
+			ist FlatSiteBuilder eines der günstigsten verfügbaren CMS.&lt;/p&gt;		
 	&lt;/div&gt;
 &lt;/div&gt;"
                 }
             }
         }
-    }
-
-    Section {
 
         Row {
 
@@ -171,8 +164,10 @@ Content {
                 span: 4
 
                 Text {
-                    text: "&lt;h3&gt;&lt;strong&gt;Preview&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;Here are sample preview pictures of the FlatSiteBuilder in action.&lt;/p&gt;"
+                    text: "&lt;h3&gt;&lt;strong&gt;Vorschau&lt;/strong&gt;&lt;/h3&gt;
+&lt;p class=&quot;lead&quot;&gt;
+	Hier findest Du ein paar Vorschau-Bilder mit dem FlatSiteBuilder in Aktion.
+&lt;/p&gt;"
                     adminlabel: "Preview"
                 }
             }
@@ -211,8 +206,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
 &lt;h3&gt;&lt;strong&gt;Portfolio&lt;/strong&gt;&lt;/h3&gt;
-&lt;p class=&quot;lead&quot;&gt;Here you can see some pages which has been created using the FlatSiteBuilder.&lt;/p&gt;
-"
+&lt;p class=&quot;lead&quot;&gt;Hier sehen Sie einige Webseiten, die mit dem FlatSiteBuilder erstellt wurden.&lt;/p&gt;"
                     adminlabel: "Portfolio"
                 }
             }
@@ -233,7 +227,7 @@ Content {
 			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 			&lt;span class=&quot;inner&quot;&gt;
 				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
+				&lt;strong&gt;PROJEKT&lt;/strong&gt; DETAILS
 			&lt;/span&gt;
 		&lt;/a&gt;
 		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/crowdware.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
@@ -256,7 +250,7 @@ Content {
 			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 			&lt;span class=&quot;inner&quot;&gt;
 				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
+				&lt;strong&gt;PROJEKT&lt;/strong&gt; DETAILS
 			&lt;/span&gt;
 		&lt;/a&gt;
 		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/artananda.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
@@ -279,7 +273,7 @@ Content {
 			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 			&lt;span class=&quot;inner&quot;&gt;
 				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
+				&lt;strong&gt;PROJEKT&lt;/strong&gt; DETAILS
 			&lt;/span&gt;
 		&lt;/a&gt;
 		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/animationmaker.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
@@ -302,7 +296,7 @@ Content {
 			&lt;span class=&quot;overlay color2&quot;&gt;&lt;/span&gt;
 			&lt;span class=&quot;inner&quot;&gt;
 				&lt;span class=&quot;block fa fa-plus fsize20&quot;&gt;&lt;/span&gt;
-				&lt;strong&gt;PROJECT&lt;/strong&gt; DETAIL
+				&lt;strong&gt;PROJEKT&lt;/strong&gt; DETAILS
 			&lt;/span&gt;
 		&lt;/a&gt;
 		&lt;img class=&quot;img-responsive&quot; src=&quot;assets/images/nrg.png&quot; width=&quot;260&quot; height=&quot;260&quot; alt=&quot;&quot;&gt;
@@ -315,9 +309,6 @@ Content {
                 }
             }
         }
-    }
-
-    Section {
 
         Row {
 
@@ -326,6 +317,7 @@ Content {
 
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;"
+                    adminlabel: "divider"
                 }
             }
         }
@@ -340,6 +332,7 @@ Content {
 
                 Text {
                     text: "&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/azD13Ie88aY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;"
+                    adminlabel: "iframe"
                 }
             }
 
@@ -347,10 +340,11 @@ Content {
                 span: 6
 
                 Text {
-                    text: "&lt;h3&gt;FlatSiteBuilder &lt;strong&gt;In Action&lt;/strong&gt;&lt;/h3&gt;
+                    text: "&lt;h3&gt;FlatSiteBuilder &lt;strong&gt;in Aktion&lt;/strong&gt;&lt;/h3&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	This video shows how to create a website from scratch.
+	Dieses Video zeigt, wie man eine Website von Grund auf neu erstellt.
 &lt;/p&gt;"
+                    adminlabel: "FlatSiteBuilder In Action"
                 }
             }
         }
@@ -367,7 +361,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
 &lt;h3&gt;&lt;strong&gt;Dokumentation&lt;/strong&gt;&lt;/h2&gt;
-&lt;p class=&quot;lead&quot;&gt;Du findest Du Dokumentation zum FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;"
+&lt;p class=&quot;lead&quot;&gt;Du findest Du Dokumentation zum FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki/Deutsch&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;"
                     adminlabel: "Dokumentation"
                 }
             }
@@ -397,8 +391,9 @@ Content {
                 span: 4
 
                 Text {
-                    text: "&lt;h4&gt;&lt;i class=&quot;fa fa-question&quot;&gt;&lt;/i&gt; Where can I host my website?&lt;/h4&gt;
-&lt;p&gt;You can host your website with every hosting provider. We recommend to host your website with &lt;a href=&quot;https://pages.github.com/&quot;&gt;github-pages&lt;/a&gt; because it is free of charge.&lt;/p&gt;"
+                    text: "&lt;h4&gt;&lt;i class=&quot;fa fa-question&quot;&gt;&lt;/i&gt; Wo kann ich meine Website hosten?&lt;/h4&gt;
+&lt;p&gt;Sie können Ihre Website bei jedem Hosting-Anbieter hosten. Wir empfehlen, 
+Ihre Website mit &lt;a href=&quot;https://pages.github.com/&quot;&gt;github-pages&lt;/a&gt; zu hosten, da dies kostenlos ist.&lt;/p&gt;"
                 }
             }
 
@@ -406,8 +401,9 @@ Content {
                 span: 4
 
                 Text {
-                    text: "&lt;h4&gt;&lt;i class=&quot;fa fa-question&quot;&gt;&lt;/i&gt; How can I integrate dynamic content?&lt;/h4&gt;
-&lt;p&gt;You can use services like &lt;a href=&quot;https://disqus.com/&quot;&gt;disqus&lt;/a&gt; to integrate comments for your blog posts for example. We are also using disqus, see below under comments.&lt;/p&gt;"
+                    text: "&lt;h4&gt;&lt;i class=&quot;fa fa-question&quot;&gt;&lt;/i&gt; Wie kann ich dynamische Inhalte integrieren?&lt;/h4&gt;
+&lt;p&gt;Du kannst Dienste wie &lt;a href=&quot;https://disqus.com/&quot;&gt;disqus&lt;/a&gt; nutzen, um zum Beispiel Kommentare für Deine Blogbeiträge zu integrieren. 
+Wir verwenden auch Disqus, siehe unten unter Kommentare.&lt;/p&gt;"
                 }
             }
 
@@ -428,7 +424,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
 &lt;h3&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/h3&gt; 
-&lt;p class=&quot;lead&quot;&gt;Here you can download our latest releases. &lt;a href=&quot;https://github.com/CrowdWare/fsb/releases&quot;&gt;&lt;img src=&quot;assets/images/download.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;lead&quot;&gt;Hier kannst Du die neusten Releases runterladen. &lt;a href=&quot;https://github.com/CrowdWare/fsb/releases&quot;&gt;&lt;img src=&quot;assets/images/download.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 "
                     adminlabel: "Downloads"
                 }
@@ -442,7 +438,7 @@ Content {
 
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
-&lt;h3&gt;&lt;strong&gt;Comments&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;strong&gt;Kommentare&lt;/strong&gt;&lt;/h3&gt;
 &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
 &lt;script&gt;
 

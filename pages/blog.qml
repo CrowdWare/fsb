@@ -7,6 +7,7 @@ Content {
     author: "Olaf"
     layout: "post"
     date: "2022-02-21"
+    language: "en"
 
     Section {
 

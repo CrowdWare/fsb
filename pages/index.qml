@@ -9,6 +9,7 @@ Content {
     author: "admin"
     layout: "default"
     date: "2022-02-21"
+    language: "en"
 
     Section {
         fullwidth: true
@@ -367,7 +368,7 @@ Content {
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
 &lt;h3&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/h2&gt;
-&lt;p class=&quot;lead&quot;&gt;You will find the documentation of the FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;"
+&lt;p class=&quot;lead&quot;&gt;You will find the documentation of the FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki/English&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;"
                     adminlabel: "Documentation"
                 }
             }
