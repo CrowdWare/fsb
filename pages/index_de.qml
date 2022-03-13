@@ -359,10 +359,30 @@ das als Desktop-Anwendung unter Linux ausgeführt wird.&lt;/p&gt;
                 span: 12
 
                 Text {
-                    text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
-&lt;h3&gt;&lt;strong&gt;Dokumentation&lt;/strong&gt;&lt;/h2&gt;
+                    text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 6
+
+                Text {
+                    text: "&lt;h3&gt;&lt;strong&gt;Dokumentation&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;Du findest Du Dokumentation zum FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki/Deutsch&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;"
                     adminlabel: "Dokumentation"
+                }
+            }
+
+            Column {
+                span: 6
+
+                Text {
+                    text: "&lt;h3&gt;&lt;strong&gt;Open Source&lt;/strong&gt;&lt;/h2&gt;
+&lt;p class=&quot;lead&quot;&gt;Der FlatSiteBuilder ist quelloffen. Den Sourcecode findest du hier bei &lt;a target=&quot;_blank&quot; href=&quot;https://bitbucket.org/artanidos/flatsitebuilder/src/master/&quot;&gt;Bitbucket&lt;/a&gt;.&lt;/p&gt;"
+                    adminlabel: "Open Source"
                 }
             }
         }

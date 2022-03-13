@@ -367,9 +367,30 @@ Content {
 
                 Text {
                     text: "&lt;div class=&quot;divider styleColor&quot;&gt;&lt;/div&gt;
-&lt;h3&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/h2&gt;
+"
+                    adminlabel: "divider"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 6
+
+                Text {
+                    text: "&lt;h3&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;You will find the documentation of the FlatSiteBuilder &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/CrowdWare/fsb/wiki/English&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;"
                     adminlabel: "Documentation"
+                }
+            }
+
+            Column {
+                span: 6
+
+                Text {
+                    text: "&lt;h3&gt;&lt;strong&gt;Open Source&lt;/strong&gt;&lt;/h2&gt;
+&lt;p class=&quot;lead&quot;&gt;The FlatSiteBuilder is open source. You will find the source code at &lt;a target=&quot;_blank&quot; href=&quot;https://bitbucket.org/artanidos/flatsitebuilder/src/master/&quot;&gt;Bitbucket&lt;/a&gt;.&lt;/p&gt;"
                 }
             }
         }
